@@ -1,0 +1,23 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            This is me
+tagline:          'This is me'
+description:      'Web Developer and entrepreneur. Im currently the Web Development Manager for the University of the Arts London'
+url:              http://howardpanton.me
+paginate:         5
+
+author:
+  name:           'Howard Panton'
+  url:            http://howardpanton.me
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/poole/lanyon
