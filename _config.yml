@@ -1,23 +1,25 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+# Site settings
+title: This is me
+header-img: img/home-bg.jpg
+email: howardpanton@gmail.com
+copyright_name: Howard Panton
+description: "Write your site description here. It will be used as your sites meta description as well!"
+baseurl: ""
+url: "https://howardpanton.github.io"
+twitter_username: SBootstrap
+github_username:  davidtmiller
+facebook_username:  StartBootstrap
+email_username:  your-email@yourdomain.com
 
-# Permalinks
-permalink:        pretty
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
 
-# Setup
-title:            This is me
-tagline:          'This is me'
-description:      'Web Developer and entrepreneur. Im currently the Web Development Manager for the University of the Arts London'
-url:              http://howardpanton.me
-paginate:         5
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-author:
-  name:           'Howard Panton'
-  url:            http://howardpanton.me
-
-# Custom vars
-version:          1.0.0
-
-github:
-  repo:           https://github.com/poole/lanyon
+gems: [jekyll-paginate, jekyll-feed]
